@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+struct Student
+{
+ string fullName
+ int groupnimber
+ string faculty
+ }
+
+Student allStudentMGU[]
+{
+ ("Ryabkov",103,"IT security),
+ ("Golovina",103,"IT security),
+ ("Kurgaev",101,"IT security)
+}
+
+void studentSearch(Student stLocal)
+{
+bool state;
+string textUser;
+
+sin >> textUSer;
+
+for (Student st : allStudentMGU)
+ {
+cout << textUser.compare(st.fullName);
+ }
+}
+
+int main ()
+{
+studentSearch();
+return 0;
+}
